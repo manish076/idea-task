@@ -1,20 +1,22 @@
 <html>
-    <head><title>To do App</title></head>
+    <head><title>To do App</title>
+    <link rel="stylesheet" href="./style-task1.css"></head>
     <body>
-    <div class="main">
-        <h1>My TODO LIST</h1>
-        <input type="text">
-        <button>ADD</button>
-        <div class="inner-cnt">
-            <h2>My Tasks</h2>
-            <ul>
-                <li><input type="checkbox" name="" id="task1"><label  for="task1" >Buy Tomatoes</label></li>
-                <li><input type="checkbox" name="" id="task2"><label  for="task2" >Pick kids from school</label></li>
-                <li><input type="checkbox" name="" id="task3"><label  for="task3" >Wash dishes</label></li>
-            </ul>
+        <div class="main">
+            <h1>My TODO LIST</h1>
+            <div class="text-box">
+                <input type="text" id="taskInput" placeholder="Add a new task">
+                <button id="addButton">ADD</button>
+            </div>
+            <div class="inner-cnt">
+                <h2>My Tasks</h2>
+                <ul id="taskList">
+                    
+                </ul>
+            </div>
+            <hr>
+            <h2 id="taskCount"></h2>
         </div>
-        <hr>
-        <h2>Completed:0 | Uncompleted:0</h2>
-    </div>
+    <script src="./script.js"></script>
     </body>
 </html>

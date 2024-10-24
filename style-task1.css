@@ -26,7 +26,7 @@ h1{
 }
 input[type="text"]{
     background-color: #01949A;
-    margin-right: 1rem;
+    margin-left: 2rem;
     border: none;
     border-radius: 1rem;
     padding: 3px 2px;
@@ -52,8 +52,8 @@ button{
     border-radius: 1rem;
     padding: 2rem 1rem;
 }
-.inner-cnt h3{
-    margin-top: -1rem;
+.inner-cnt h2{
+    margin: 0.5rem 0;
     text-decoration: underline;
     width: 100%;
     text-align: center;
@@ -67,4 +67,8 @@ h2{
     font-weight: 400;
     font-size: medium;
     text-align: center;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
 }
